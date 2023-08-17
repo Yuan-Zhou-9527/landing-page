@@ -1,0 +1,174 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content:stretch;
+
+    align-items: center;
+    background-color: rgb(128, 128, 128);
+    padding: 0 15%;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    
+}
+
+header {
+    background-color: #1F2937;
+    padding: 15px 200px;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    gap: 25px;
+
+}
+
+h1 {
+    font-size: 48px;
+    font-weight:800;
+    color: #F9FAF8;
+    line-height: 1.1;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+.hero p{
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 5px 20px;
+    color: #E5E7EB;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.title {
+    flex: 1;
+}
+
+.hero div:last-of-type {
+    background-color: rgb(100, 109, 121);
+    font-family: Roboto, sans-serif;
+    color:#E5E7EB;
+    min-height: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+/* ariticle section */
+article {
+    text-align: center;
+    background-color: white;
+    padding: 15px 200px;
+    width: 100%;
+}
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 200px;
+}
+.box .pic {
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+/* quotation section */
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    padding: 150px 150px;
+    width: 100%;
+}
+
+.quote p {
+    font-weight: 800;
+    text-align: right;
+    font-style:normal;
+}
+
+/* signup section */
+.signup {
+    background-color: white;
+    padding: 15px 200px;
+    width: 100%;
+
+}
+.signup > div {
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 20%;
+    margin: 150px auto;
+
+    background-color: #3882F6;
+    border-radius: 15px;
+    color: #E5E7EB;
+    max-width: 800px;
+}
+.left {
+    flex-grow: 4;
+
+}
+.right {
+    flex-grow:1;
+}
+
+/* footer section */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 100%;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 15px 200px;
+}
